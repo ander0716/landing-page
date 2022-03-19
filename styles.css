@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:ital,wght@1,300&display=swap');
+
+body{
+    background: url("https://landing.zytheme.com/siena/assets/images/background/bg-1.png"); /*se deja una imagen como fondo*/
+    background-position: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.container{
+    padding: 0px 80px;
+}
+
+header{
+    margin-top: 30px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center; /*centrado verticalmente*/
+    justify-content: center; /*centrado horizontalmente*/
+    margin: 0px 30px;
+}
+
+nav{
+    display: flex;
+    flex: 1;
+    /* flex-direction: row-reverse; */
+    justify-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    color: #6262A0;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #664FFA;
+}
+
+h1{
+    color: #6262A0;
+    font-size: 3em;
+    font-weight: 400;
+    margin: 40px 0px 25px;
+}
+
+h2{
+    color: #6262A0;
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    margin-top: 300px;
+}
+
+h4{
+    color: #6262A0;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0px;
+    display: block;
+    margin: 0;
+}
+
+p{
+    color: #ababc7;
+    font-size: 1.2em;
+}
+p span {
+    font-size: 0.8em;
+}
+p.center{
+    text-align: center;
+}
+
+.form-container{
+    /* padding: 20px; */
+}
+
+.field-form label{
+    color: #6262A0;
+    font-size: 0.95em;
+    display: block;
+    margin: 5px 0px;
+}
+
+.field-form input{
+    background-color: #f7f6ff;
+    color: #222;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px 6px 6px 12px;
+    font-size: 1.05em;
+    outline: none; /*quita el seleccionado del input*/
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #664FFA;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border: none;
+    margin: 10px 0px;
+    font-size: 0.79em;
+    font-weight: 700;
+    cursor: pointer; /*Este cambia el icono del cursor por una manito */
+}
+
+.btn-primary:hover{
+    background-color: #3b1df9;
+}
+
+article{
+    margin-top: 80px;
+    display: flex;
+}
+
+.content-slide1{
+    flex: 65;
+    padding: 0 20px;
+}
+
+#box-trail{
+    flex: 35;
+    background-color: #fff;
+    padding: 10px 40px;
+    box-shadow: 3px 6px 8px 0px rgba(189,189,189,0.76); /*se usa para sombras*/
+    -webkit-box-shadow: 3px 6px 8px 0px rgba(189,189,189,0.76);
+    -moz-box-shadow: 3px 6px 8px 0px rgba(189,189,189,0.76);
+}
+
+.container-items{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.sections-items{
+    display: flex;
+}
+
+.img-items{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bg-blue {
+    background-color:#5c48e0;
+}
+
+.bg-green {
+    background-color: #02e6b8;
+}
+
+.bg-orange {
+    background-color: #ff8c00;
+}
